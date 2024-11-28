@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{   
+    float A,B,C;
+    
+    cout << "Введите первое число : ";
+    cin >> A;
+    cout << "Введите второе число : ";
+    cin >> B;
+    cout << "Введите последнее число : ";
+    cin >> C;
+    int box = A;
+    // Решение
+    A = B;
+    B = C;
+    C = box;
+    
+    cout << "Новое значение A: " << A << endl;
+    cout << "Новое значение B: " << B << endl;
+    cout << "Новое значение C: " << C << endl;
+    
+    // А => C, C => B, B => A
+return 0;
+}

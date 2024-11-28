@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int K;
+    cout << "Введите день: ";
+    cin >> K;
+    
+    cout<<"Номер дня недели: "<<K%6;
+    
+
+    return 0;
+}

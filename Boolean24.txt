@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int A,B,C;
+    cout<< "Введите число (A>0) ";
+    cin>>A;
+    cout<<"Введите число B ";
+    cin>>B;
+    cout<<"Введите число C ";
+    cin>>C;
+    // Проверка числа А
+    if (A>0)
+    {
+        cout<<"Проверка...";
+      // Дискриминант
+    if((B*B)-4*A*C){
+        
+        cout<<"Истина";
+    }
+    else{
+        cout<<"Ложь";
+    }   
+        
+    }
+    else
+    {
+        cout<<"Число A меньше 0, попробуйте снова!";
+    }
+   
+    return 0;
+}

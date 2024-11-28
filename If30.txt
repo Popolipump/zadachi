@@ -1,0 +1,39 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int number;
+
+  cout << "Введите целое число (от 1 до 999): ";
+  cin >> number;    
+
+  if (number < 1 or number > 999) 
+  {
+    cout << "Число вне диапазона!";
+    return 1; // Ошибка
+  }
+    // Проверка чисел
+  if (number % 2 == 0)
+  {
+    cout << "Чётное ";
+  }
+    else
+    {
+        cout << "Нечётное ";
+    }
+    
+    // Выводим значения чисел
+    if (number / 100 > 0) {
+        cout << "Трёхначное число";
+        }
+    if (number / 10 > 0)
+    {
+        cout << "Двухзначное число";
+    }
+    else 
+    { 
+        cout << "Одночначное число";
+    }
+     return 0;
+}

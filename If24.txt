@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cmath> 
+using namespace std;
+
+int main()
+{
+    double F,X;
+    cout << "Введите X: ";
+    cin >> X;
+    // Если X > 0 
+    if (X > 0){
+        F = 2 * sin(X);
+    }
+    else{
+        F = 6 - X;
+    }
+    cout << "Значение функции f(x): "<< F ;
+    
+    return 0;
+}

@@ -1,0 +1,116 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char orientation;
+    int command1, command2;
+    cout << "Введите исходную ориентацию С - North, З - West, Ю - South, В - East ";
+    cin >> orientation;
+    cout << "Введите первую команду ( 1 — поворот налево, −1 — поворот направо, 2 — поворот на 180◦ ) ";
+    cin >> command1;
+    cout << "Введите вторую команду ( 1 — поворот налево, −1 — поворот направо, 2 — поворот на 180◦ ) ";
+    cin >> command2;
+    switch (orientation) 
+    {
+            case 1: // Поворот налево
+                switch (orientation) {
+                    case 'N': orientation = 'W'; break;
+                    case 'W': orientation = 'S'; break;
+                    case 'S': orientation = 'E'; break;
+                    case 'E': orientation = 'N'; break;
+                }
+                break;
+            case -1: // Поворот направо
+                switch (orientation) {
+                    case 'N': orientation = 'E'; break;
+                    case 'E': orientation = 'S'; break;
+                    case 'S': orientation = 'W'; break;
+                    case 'W': orientation = 'N'; break;
+                }
+                break;
+            case 2: // Поворот на 180 градусов
+                switch (orientation) {
+                    case 'N': orientation = 'S'; break;
+                    case 'S': orientation = 'N'; break;
+                    case 'W': orientation = 'E'; break;
+                    case 'E': orientation = 'W'; break;
+                }
+                break;
+    }
+
+   cout << "Конечная ориентация: " << orientation << endl;
+return 0;
+}
+#include <iostream>
+using namespace std;
+int main()
+{
+    
+    int x, y, z;
+    cout<<"Введите сторону света, куда смотрит локатор, 1 — север, 2 —запад, 3 — юг,4 — восток; x=";
+    cin>> x;
+    cout << "Введите действие,1 — поворот налево, -1 — поворот направо, 2 — поворот на 180° ; y=";
+    cin >> y ;
+    cout<<"Введите действие,1 — поворот налево, -1 — поворот направо, 2 — поворот на 180° ; z=";
+    cin>> z ;
+    // Присваивание переменной 
+    switch (y) {
+        case 1: // Поворот налево
+            switch (x) {
+                case '1': x = '2'; break;
+                case '2': x = '3'; break;
+                case '3': x = '4'; break;
+                case '4': x = '1'; break;
+            }
+            break;
+        case -1: // Поворот направо
+            switch (x) {
+                case '1': x = '4'; break;
+                case '4': x = '3'; break;
+                case '3': x = '2'; break;
+                case '2': x = '1'; break;
+            }
+            break;
+        case 2: // Поворот на 180 градусов
+            switch (x) {
+                case '1': x = '3'; break;
+                case '3': x = '1'; break;
+                case '2': x = '4'; break;
+                case '4': x = '2'; break;
+                
+            }
+            }
+
+    switch (z) {
+        case 1: // Поворот налево
+            switch (x) {
+                case '1': x = '2'; break;
+                case '2': x = '3'; break;
+                case '3': x = '4'; break;
+                case '4': x = '1'; break;
+            }
+            break;
+        case -1: // Поворот направо
+            switch (x) {
+                case '1': x = '4'; break;
+                case '4': x = '3'; break;
+                case '3': x = '2'; break;
+                case '2': x = '1'; break;
+            }
+            break;
+        case 2: // Поворот на 180 градусов
+            switch (x) {
+                case '1': x = '3'; break;
+                case '3': x = '1'; break;
+                case '2': x = '4'; break;
+                case '4': x = '2'; break;
+            }
+    }
+
+    
+cout << x << "       1 — север, 2 —запад, 3 — юг,4 — восток";
+    
+
+    return 0;
+}

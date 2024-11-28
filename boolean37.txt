@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int x1;
+    cout<<"Введите число x1 = ";
+    cin>>x1;
+    int y1;
+    cout<<"Введите число y1 = ";
+    cin>>y1;
+    int x2;
+    cout<<"Введите число x2 = ";
+    cin>>x2;
+    int y2;
+    cout<<"Введите число y2 = ";
+    cin>>y2;
+    
+    if ((x2=x1)and((y2=y1+1)or(y2-y1-1)))
+    {
+        cout<<"true";
+    }
+    if (((x2=x1+1)or(x2=x1-1))and((y2=y1)or(y2=y1+1)or(y2=y1-1)))
+    {
+        cout<<"true";
+    }
+    else
+    {
+        cout<<"false";
+    }
+    
+    
+    
+
+    return 0;
+}

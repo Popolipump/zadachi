@@ -1,0 +1,24 @@
+#include <iostream>
+
+
+using namespace std;
+
+int main()
+{   
+    int number,x,y,z,sum,proizvd;
+    cout << "Введите трехзначное число: ";
+    cin >> number;
+    // Делим число на цифры
+    x = number / 100;
+    y = (number % 100) / 10;
+    z = number % 10;
+    // Находим сумму и произведение
+    sum = x+y+z;
+    proizvd = x*y*z;
+    cout << "Сумма цифр числа " <<number<<" равно: " <<sum<<endl;
+    cout << "Произведение цифр числа " <<number<<" равно: " <<proizvd;
+
+    
+    
+    return 0;
+}

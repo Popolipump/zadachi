@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char orientation;
+    int command1, command2;
+    cout << "Введите исходную ориентацию С - North, З - West, Ю - South, В - East ";
+    cin >> orientation;
+    cout << "Введите первую команду ( 1 — поворот налево, −1 — поворот направо, 2 — поворот на 180◦ ) ";
+    cin >> command1;
+    cout << "Введите вторую команду ( 1 — поворот налево, −1 — поворот направо, 2 — поворот на 180◦ ) ";
+    cin >> command2;
+    
+    for (int i = 0; i < 2; i++) 
+    {
+        int command = (i == 0) ? command1 : command2;
+        
+        switch (orientation) 
+        {
+                case 1: // Поворот налево
+                    switch (orientation) {
+                        case 'N': orientation = 'W'; break;
+                        case 'W': orientation = 'S'; break;
+                        case 'S': orientation = 'E'; break;
+                        case 'E': orientation = 'N'; break;
+                    }
+                    break;
+                case -1: // Поворот направо
+                    switch (orientation) {
+                        case 'N': orientation = 'E'; break;
+                        case 'E': orientation = 'S'; break;
+                        case 'S': orientation = 'W'; break;
+                        case 'W': orientation = 'N'; break;
+                    }
+                    break;
+                case 2: // Поворот на 180 градусов
+                    switch (orientation) {
+                        case 'N': orientation = 'S'; break;
+                        case 'S': orientation = 'N'; break;
+                        case 'W': orientation = 'E'; break;
+                        case 'E': orientation = 'W'; break;
+                    }
+                    break;
+        }   
+        
+    }
+
+    cout << "Конечная ориентация: " << orientation << endl;
+    return 0;
+}

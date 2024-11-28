@@ -1,0 +1,26 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{   
+    float V1,V2,S,T,distance;
+    cout<<"Введите скороcть V1 ";
+    cin >>V1;
+    cout<<"Введите скорость V2 ";
+    cin>>V2;
+    cout<<"Введите расстояние между автомобилями S ";
+    cin>>S;
+    cout<<"Введите пройденное время со старта ";
+    cin>>T;
+    // Решение
+    float total_distance = T * (V1 + V2);
+    // Расстояние между автомобилями через T часов
+    distance = abs(S - total_distance);
+    cout << "Расстояние между автомобилями через " << T << " часов: " << distance << " км" << endl;
+
+    
+    
+    return 0;
+}
