@@ -1,0 +1,14 @@
+C:\Users\student\Desktop\Proc\Proc\bin\Debug\Proc.exe.config
+C:\Users\student\Desktop\Proc\Proc\bin\Debug\Proc.exe
+C:\Users\student\Desktop\Proc\Proc\bin\Debug\Proc.pdb
+C:\Users\student\Desktop\Proc\Proc\obj\Debug\Proc.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\Proc\Proc\obj\Debug\Proc.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Proc\Proc\obj\Debug\Proc.exe
+C:\Users\student\Desktop\Proc\Proc\obj\Debug\Proc.pdb
+C:\Users\student\Desktop\C#\Proc\Proc\bin\Debug\Proc.exe.config
+C:\Users\student\Desktop\C#\Proc\Proc\bin\Debug\Proc.exe
+C:\Users\student\Desktop\C#\Proc\Proc\bin\Debug\Proc.pdb
+C:\Users\student\Desktop\C#\Proc\Proc\obj\Debug\Proc.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\C#\Proc\Proc\obj\Debug\Proc.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\C#\Proc\Proc\obj\Debug\Proc.exe
+C:\Users\student\Desktop\C#\Proc\Proc\obj\Debug\Proc.pdb

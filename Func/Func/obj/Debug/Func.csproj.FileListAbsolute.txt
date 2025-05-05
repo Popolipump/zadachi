@@ -1,0 +1,9 @@
+R:\ИСП-21\ОАиП\2 подгруппа\Яковлев Сергей\C#\Func\Func\obj\Debug\Func.csproj.AssemblyReference.cache
+R:\ИСП-21\ОАиП\2 подгруппа\Яковлев Сергей\C#\Func\Func\obj\Debug\Func.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Func\bin\Debug\Func.exe.config
+C:\Users\student\Desktop\Func\bin\Debug\Func.exe
+C:\Users\student\Desktop\Func\bin\Debug\Func.pdb
+C:\Users\student\Desktop\Func\obj\Debug\Func.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\Func\obj\Debug\Func.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Func\obj\Debug\Func.exe
+C:\Users\student\Desktop\Func\obj\Debug\Func.pdb
